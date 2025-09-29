@@ -41,9 +41,10 @@ nav li a{
     display: flex;
     background-image: url(images/La\ sunset.jpg);
     background-size: cover;
-    
+    width: 100vw;
 }
 .Projetos {
+    width: 100vw;
     height: 100vh;
     background-color: blanchedalmond;
     text-align: left;
