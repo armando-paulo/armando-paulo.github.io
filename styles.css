@@ -1,6 +1,96 @@
 body {
     background-color: bisque;
+
 }
-img { 
-    width: 350px
+ nav ul{
+    background-color:rgba(83, 92, 138, 0.212); 
+    list-style: none;
+    padding:0px;
+    margin:0px;
+    display:flex;
+    gap:1rem;
+   justify-content: right;
+   
+   top: 0;
+   width: 100vw;
+   height: 10%;
+   position: fixed;
+  flex-wrap: wrap;
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
+
+}
+nav li a{
+    background-color: rgba(83, 97, 132, 0.142);
+    border-radius: 25px;
+    padding: 21px;
+    margin: 8px;
+    gap: 1rem;
+    
+}
+.Disciplina{
+    height: 100vh;
+
+}
+.Hero{
+    height: 100vh;
+    justify-content: center;
+    padding: 60px;
+    display: flex;
+    background-image: url(images/La\ sunset.jpg);
+    background-size: cover;
+    
+}
+.Projetos {
+    height: 100vh;
+    background-color: blanchedalmond;
+    text-align: left;
+    padding: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 15px;   
+    text-decoration: none;
+}
+@media(max-width: 768px){
+ .Projetos{
+     flex-direction:column;
+     gap: 0.5rem;
+     
+    }
+    nav ul{
+      flex-direction:column;
+      
+    }   
+}
+.Links {
+      list-style: none;
+      background-color:rgba(227, 12, 141, 0.381);
+      padding: 20px 20px;
+      border-radius: 22px;
+      font-size: 15px;
+      font-weight: bold;
+      width: 200px;
+      height:60px;
+      
+      justify-content: right;
+      
+}
+.Links:hover{
+    filter: brightness(90%);
+}
+nav a:hover {
+  color: darkblue;
+}
+.Links a {
+  text-decoration: none;
+  color: darkred;
+  font-size: 16px;
+}
+
+.Links a:hover {
+  filter: brightness(90%);
 }
