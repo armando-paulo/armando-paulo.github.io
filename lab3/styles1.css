@@ -22,6 +22,7 @@ nav a {
   color: black;
   border-radius: 5px;
   box-shadow: 2px 3px 3px lightgrey;
+  justify-content: flex-end;
 }
 a:hover {
   filter: brightness(90%);
