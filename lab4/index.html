@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt">
-    <head>
-        <meta charset="UTF-8">
-        <title>Cidade</title>
-        <link rel="stylesheet" href="styles1.css"/>  
-    </head>
-    <body>
-        
-            
-        <main>
-           
-        </main>
-        <footer>
-            <p>DIW 2025</p>
-        </footer>
-        <script src="main.js"></script>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Cidade</title>
+  <link rel="stylesheet" href="css/styles1.css"/>
+</head>
+<body id="background">
+  <p id="ex1">1.Passa por aqui!</p>
+
+  <button type="button" onclick="alert('Olá');">Alerta</button>
+  <p id="cores">2.Pinta-me!
+  <button type="button" onclick="vermelho();">Red</button>
+  <button type="button" onclick="verde();">Green</button>
+  <button type="button" onclick="azul();">Blue</button>
+</p>
+ 
+<p>Experimenta escrever...: <input type="text" id="fname" onkeyup="toUpperCaseInput()"></p>
+
+<p>Escolha uma cor em inglês: <input type="text" id="coresDoFundo"><button type="button" id="buttonColor" onclick="myFunction();">submeter</button></p>
+
+
+  <h1>0</h1>
+  <button onclick="count()">Contar</button>
+
+  <footer>
+    <p>DIW 2025</p>
+  </footer>
+
+  
+  <script src="scripts/main.js"></script>
+</body>
 </html>
